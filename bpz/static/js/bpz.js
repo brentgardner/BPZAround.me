@@ -91,7 +91,6 @@ bpz = {
   lists:{
     build: function (selector,data) {
       var ul = d3.select(selector)
-      //ul.style({position:'relative',top:'300px'})
       
       //create an li for all features
       li = ul.selectAll("li")
@@ -178,6 +177,9 @@ bpz = {
               href: function (d) {
               return d.properties.link
               },
+							"data-toggle":"tooltip",
+							"placement":"right",
+							"title":"Tooltip on right",
             })
       }
     }
