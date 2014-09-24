@@ -35,6 +35,10 @@ ul#case-list > li:active {
 		font-size: 10px;
 	}
 	
+	.panel a {
+		font-size: 14px;
+	}
+	
 	.list-group-item {
 		padding: 5px 10px;
 	}
@@ -42,6 +46,8 @@ ul#case-list > li:active {
 	.btn {
 		font-size: 12px;
 	}
+	
+	
 }
 
 .scroll-area {
